@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100&family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,300&display=swap');
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.encabezado{
+    position:sticky;
+    top: 0;
+    background-color: aliceblue;
+}
+.logoHeader{
+    height: 5%;
+    width: 5%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.listaNav{
+    font-weight: 400;
+    list-style: none;
+    text-align: right;
+}
+.listaNav li {
+    display: inline; 
+    background-color:#428E81;
+    border-radius: 10px;
+    padding: 5px 40px;
+    margin: 20px;
+    box-shadow: 2px 2px 7px rgb(43, 46, 48);
+    border: 1px solid rgb(17, 184, 142);
+
+}
+.linkNav{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.bodegaDibujo{
+    height: 40%;
+    width: 45%;
+    background-size: cover;
+    float: right;
+}
+.tituloInicio {
+    text-align: left;
+    margin-left: 10vh;
+    margin-top: 10vh;
+    font-size: 8vh;
+}
+.parrafoInicio{
+    width: 30%;
+    margin-left: 10vh;
+    margin-top: 5vh;
+}
+.botonAbrir, .botonPlanes{
+    background-color:#428E81;
+    width: 15vh;
+    height: 5vh;
+    border: none;
+    margin-top: 5vh;
+    margin-left: 10vh;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+.pieDePagina{
+    background-color: #8affeb65;
+    height: 20vh;
+    width: 100%;
+    position: relative;
+    top:50vh;
+}
+.logoFooter{
+    height: 10vh;
+    width: 10vh;
+}
+.tituloFooter{
+    color: #034b3f;
+}
+/*Probe unidades de medidas absolutas y relativas para manejar ambos conceptos*/
